@@ -1,0 +1,55 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+
+/*$blue-100: #F2FEFF;
+
+$bs-body-bg: (
+    "color" : $blue-100,
+)*/
+
+$blue-500: #435DBC;
+$gray-300: #978EA6;
+
+main {
+    padding: 2rem;
+}
+
+.text-blue {
+    color: var($blue-500);
+}
+
+.text-gray {
+    color: var($gray-300);
+}
+
+.card {
+    box-shadow: 0px 12px 36px -6px #C0C3CA;
+}
+
+.card-img-top {
+    border: 4px solid #9BB0FA;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.card-img {
+    margin-top: 14px;
+    margin-bottom: 14px;
+    object-fit: contain;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divider {
+    border: 2px solid #9BB0FA;
+    width: 44px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
